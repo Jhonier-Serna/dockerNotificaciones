@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jhoni\\OneDrive\\Escritorio\\Projects\\Sw2\\Backend\\notifications\\MsNotificaciones\\MsNotificaciones.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jhoni\\OneDrive\\Escritorio\\Projects\\Sw2\\Backend\\notifications\\MsNotificaciones\\MsNotificaciones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jhoni\\OneDrive\\Escritorio\\Projects\\Sw2\\Backend\\notifications\\MsNotificaciones\\MsNotificaciones.csproj",
+        "projectName": "MsNotificaciones",
+        "projectPath": "C:\\Users\\jhoni\\OneDrive\\Escritorio\\Projects\\Sw2\\Backend\\notifications\\MsNotificaciones\\MsNotificaciones.csproj",
+        "packagesPath": "C:\\Users\\jhoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhoni\\OneDrive\\Escritorio\\Projects\\Sw2\\Backend\\notifications\\MsNotificaciones\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jhoni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
